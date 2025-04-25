@@ -23,9 +23,9 @@ class _LoginPageState extends State<LoginPage> {
       final password = passwordController.text;
 
       if (email == validEmail && password == validPassword) {
-        _showMessage('✅ Login Successful!');
+        _showMessage('Login Successful!');
       } else {
-        _showMessage('❌ Invalid credentials. Try again.');
+        _showMessage('Invalid credentials. Try again.');
       }
     }
   }
