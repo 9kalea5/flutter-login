@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home.dart'; // Import the separate home page file
+import 'home.dart';
 
 void main() {
   runApp(LoginApp());
